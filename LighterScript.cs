@@ -24,10 +24,9 @@ public class LighterScript : MonoBehaviour {
 	{
 		if (MoneyScript.moneys.coins >= 40) {
 			lighter = lighter + 1;
-			MoneyScript.moneys.coins = MoneyScript.moneys.coins - 40;
-			//int LighterOwned = LighterScript.lighters.lighter;
+	
 			LighterText.text = "Qnt:" + lighter.ToString ();
-		//	Gtext.text = MoneyScript.moneys.coins.ToString ();
+		
 		}
 	}
 
