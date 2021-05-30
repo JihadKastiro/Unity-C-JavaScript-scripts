@@ -47,34 +47,6 @@ if (Input.GetKey (KeyCode.W))
 					}
 		
 
-/*		if (Input.GetAxis("Horizontal")>=0)
-		{
-
-			//rB.position += Vector3.right * Time.deltaTime  *  movementSpeed;
-			transform.Translate (Input.GetAxis("Horizontal")*Time.deltaTime*movementSpeed,0f,0f);
-		}
-
-		if (Input.GetAxis("Horizontal")<0)
-		{
-
-			//rB.position += Vector3.right * Time.deltaTime  *  movementSpeed;
-			transform.Translate (Input.GetAxis("Horizontal")*Time.deltaTime*movementSpeed,0f,0f);
-		}
-		if (Input.GetAxis("Vertical")<0)
-		{
-
-			//rB.position += Vector3.right * Time.deltaTime  *  movementSpeed;
-			transform.Translate (0f,0f,Input.GetAxis("Vertical")*Time.deltaTime*movementSpeed);
-		}
-		if (Input.GetAxis("Vertical")>0)
-		{
-
-			//rB.position += Vector3.right * Time.deltaTime  *  movementSpeed;
-			transform.Translate (0f,0f,Input.GetAxis("Vertical")*Time.deltaTime*movementSpeed);
-		}
-		*/
-
-	//	transform.Translate (Input.GetAxis("Horizontal")*Time.deltaTime,Input.GetAxis("Vertical")*Time.deltaTime,0f);
 
 
 
