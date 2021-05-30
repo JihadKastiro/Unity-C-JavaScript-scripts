@@ -25,9 +25,9 @@ public class timeFreezerScript : MonoBehaviour {
 			if (MoneyScript.moneys.coins >= 25) {
 			timeFreezer = timeFreezer + 1;
 				MoneyScript.moneys.coins = MoneyScript.moneys.coins - 25;
-				//int LighterOwned = LighterScript.lighters.lighter;
+	
 			LighterText.text = "Qnt:" + timeFreezer.ToString ();
-				//	Gtext.text = MoneyScript.moneys.coins.ToString ();
+			
 			}
 		}
 	public void useTimeFreezer(int tFreezerNb)
