@@ -19,6 +19,6 @@ public class MoneyScript : MonoBehaviour {
 	public void addCoins(int money)
 	{
 		coins += money;
-		//coinText.text = coins.ToString ();
+
 	}
 }
