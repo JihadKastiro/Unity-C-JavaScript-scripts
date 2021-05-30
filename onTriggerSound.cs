@@ -11,10 +11,10 @@ public class onTriggerSound : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other)
 	{
-	//	if ((other.tag == "Player")&&(hasPlayedAudio==false)) {
+	
 		if (other.tag == "Player"){
 			soundSourcez.PlayOneShot (sound);
-			//hasPlayedAudio = false;
+			
 		}
 	}
 }
