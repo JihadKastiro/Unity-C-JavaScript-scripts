@@ -10,8 +10,7 @@ public class coinTrigger : MonoBehaviour {
 	void Start () {
 		if(PlayerPrefs.GetFloat ("d" + Levelnb + "_d")==1){
 			coin.SetActive (false);
-			//			PlayerPrefs.SetFloat ("c" + Levelnb + "_c", 0);
-
+		
 		}
 	}
 	
