@@ -59,23 +59,6 @@ public class saveLoad : MonoBehaviour {
         }
 
 
-    /*
-        public void sappPurchased()
-           {
-        
-                  
-                     BinaryFormatter binary = new BinaryFormatter();
-                    FileStream fStream = File.Create(Application.persistentDataPath + "/ap.dat");
-                    saveManager saver = new saveManager();
-                    saver.appPurchased = winTrigger.apppurchased.appPurch;
-
-
-                   binary.Serialize(fStream, saver);
-                   fStream.Close();
-        }
-
-
-    */
 
 
 
@@ -115,19 +98,7 @@ public class saveLoad : MonoBehaviour {
             }
         }
 
-        /*   public void loadappPurchased()
-        {
-            if (File.Exists(Application.persistentDataPath + "/sG.dat"))
-            {
-                BinaryFormatter binary = new BinaryFormatter();
-                FileStream fStream = File.Open(Application.persistentDataPath + "/ap.dat", FileMode.Open);
-                saveManager saver = (saveManager)binary.Deserialize(fStream);
-                fStream.Close();
-                // MoneyScr//ipt.moneys.coins = saver.coins;//all sttuff to load
-                winTrigger.apppurchased.appPurch = saver.appPurchased;
-            }
-            */
-
+  
         }
     [Serializable]
     class saveManager {
@@ -135,6 +106,6 @@ public class saveLoad : MonoBehaviour {
         public int coins;
         public int lighter;
         public int timeFreezer;
-        //public int appPurchased;
+
     }
 //}
